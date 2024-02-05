@@ -2,7 +2,7 @@
 ## Overview
 This repository demonstrates a simple implementation of a 7-segment display using Arduino and Proteus. The code provided sequentially displays numbers `0 to 9 on the 7-segment display`.
 
-
+![](photoOnProteus.png)
 ## Implementation Details
 ### 1. Arduino Code
 - Uses an array to represent 7-segment display configurations for numbers 0 to 9.
@@ -20,7 +20,7 @@ This repository demonstrates a simple implementation of a 7-segment display usin
 ## Repository Structure
 - **`seven_segment.ino`**: Arduino code for 7-segment display implementation.
 - **`seven_segment.pdsprj`**: Proteus simulation file for visualizing the implementation.
-- **`seven_segment_code.ino.with_bootloader.hex`**: The hex file from the arduino compile.
+- **`seven_segment.ino.with_bootloader.hex`**: The hex file from the arduino compile.
 
 ## Usage
 1. Open the Arduino IDE and copy the provided code into a new sketch.
